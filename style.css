@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.background {
+    background: url(../trabalho_css/img/The-Elder-Scrolls-Online-Xbox-games_3840x2160.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.manu_principal {
+    gap: 450px;
+    display: flex;
+    padding: 15px;
+}
+
+.container_menu {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(109, 109, 109, 0.541);
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.568);
+}
